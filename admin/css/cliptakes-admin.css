@@ -1,0 +1,341 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+:root {
+  --cliptakes-main: #588dbd;
+}
+
+#ctadmin-main-container .nav-tab-wrapper {
+  margin-bottom: 10px;
+}
+#ctadmin-main-container details summary + * {
+  border: 1px solid #666;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  width: 700px;
+  max-width: 95%;
+}
+#ctadmin-main-container td details summary + * {
+  width: min(480px, 95%);
+}
+#ctadmin-main-container details summary + div {
+  margin-top: 10px;
+}
+#ctadmin-main-container details summary {
+  cursor: pointer;
+}
+#ctadmin-main-container details summary > * {
+  display: inline;
+}
+
+.ctadmin-hidden {
+  display: none !important;
+}
+
+.ctadmin-button {
+  margin: 10px 0 !important;
+}
+label.ctadmin-button input[type="file"] {
+  display: none;
+}
+
+.ctadmin-button-red {
+  border-color: #9b2124 !important;
+  color: #9b2124 !important;
+}
+
+.ctadmin-message > p {
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.ctadmin-text-input-info-box {
+  margin: 5px 0;
+  border: 1px gray solid;
+  border-radius: 5px;
+  line-height: 22px;
+  display: grid;
+  grid-template-columns: max-content auto;
+}
+
+#ctadmin-logo-preview {
+  display: block;
+  padding: 10px 0;
+  max-width: 250px;
+  max-height: 150px;
+}
+
+.ctadmin-question {
+  text-align: right;
+  margin-bottom: 10px;
+  border-bottom: 1px solid lightgray;
+}
+.ctadmin-question-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ctadmin-question-timelimit-input-section {
+  padding-left: 10px;
+  vertical-align: middle;
+}
+@media screen and (min-width: 460px) {
+  .ctadmin-question-timelimit-input-section {
+    display: inline;
+  }
+}
+.ctadmin-question-timelimit-input {
+  text-align: end;
+  width: 40px;
+}
+input[type="number"].ctadmin-question-timelimit-input {
+  -moz-appearance: textfield;
+}
+.ctadmin-question-timelimit-input::-webkit-outer-spin-button,
+.ctadmin-question-timelimit-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.ctadmin-question,
+#ctadmin-template-editor textarea,
+#ctadmin-template-shortcode,
+#ctadmin-template-editor-actions {
+  width: 500px;
+  max-width: 100%;
+}
+
+#ctadmin-template-editor-actions {
+  margin-top: 10px;
+  /* display: flex;
+  justify-content: space-between; */
+}
+
+#ctadmin-check-subscription-error {
+  margin: 10px 0 0 0;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0.1);
+  border-radius: 10px;
+  border-color: red;
+  border-width: 2px;
+}
+.ctadmin-subscription-checked,
+#ctadmin-save-template-success,
+#ctadmin-contact-saved-message {
+  margin: 10px;
+  padding: 10px;
+  background-color: rgba(0, 255, 0, 0.1);
+  border-radius: 10px;
+}
+
+#ctadmin-template-shortcode {
+  transition: all 0.5s;
+}
+.ctadmin-green-overlay {
+  background-color: rgba(0, 255, 0, 0.2) !important;
+  border-radius: 10px;
+}
+
+.ctadmin-copied-message::after {
+  position: absolute;
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  content: "Copied to Clipboard";
+  font-weight: bold;
+  background-color: rgba(0, 255, 0, 0.2) !important;
+}
+
+@keyframes ctadmin-loading-spinner {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+.ctadmin-loading-spinner {
+  /* box-sizing: content-box; */
+  width: 30px;
+  height: 30px;
+  margin: 5px auto;
+  font-size: 0px;
+  background: none;
+  animation: ctadmin-loading-spinner 2s infinite ease-in-out;
+  border-radius: 50%;
+  border-top: 7px solid #588dbd;
+  border-right: 7px solid #588dbd50;
+  border-bottom: 7px solid #588dbd50;
+  border-left: 7px solid #588dbd50;
+}
+
+#ctadmin-contact-info {
+  padding: 10px;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  display: inline-table;
+  margin-bottom: 10px;
+}
+#ctadmin-contact-info .button,
+#ctadmin-contact-info label > b {
+  min-width: 80px;
+  display: inline-block;
+}
+#ctadmin-contact-info button,
+#ctadmin-contact-info label {
+  margin-left: 10px;
+}
+
+.ctadmin-contact-list-actions {
+  visibility: hidden;
+}
+.ctadmin-contact-list-actions a {
+  cursor: pointer;
+}
+#ctadmin-contact-list tr:hover .ctadmin-contact-list-actions {
+  visibility: visible;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+#ctadmin-get-started {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 15px;
+  background-color: white;
+  font-family: 'Poppins', sans-serif;
+  line-height: initial;
+}
+
+#ctadmin-get-started-links-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+#ctadmin-get-started-header {
+  display: flex;
+  justify-content: center;
+  border-bottom: 5px solid var(--cliptakes-main);
+}
+#ctadmin-get-started-content {
+  margin: 20px 0px;  
+  padding: 15px;
+  background-image: url("https://files.cliptakes.com/media/get-started-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: right; 
+}
+.ctadmin-get-started-usp {
+  background-color: #ffffffdd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 600px;
+  margin: 15px;
+}
+.ctadmin-get-started-usp h3, .ctadmin-get-started-usp p {
+  margin: 5px;
+}
+.ctadmin-get-started-usp-icon {
+  padding: 15px;
+}
+#ctadmin-get-started-button-container {
+  display: flex;
+  justify-content: space-around;
+  border-top: 5px solid var(--cliptakes-main);
+  padding: 15px 0;
+}
+.ctadmin-pretty-button {
+  height: 50px;
+  width: 275px;
+  max-width: 45%;
+  border-radius: 5px;
+  font-size: large;
+  font-weight: bold;
+  margin: 0 20px 0 20px;
+}
+#ctadmin-btn-get-started, #ctadmin-submit-create-account {
+  background-color: var(--cliptakes-main);
+  color: white;
+  /* min-width: 300px; */
+  border: none;
+}
+#ctadmin-btn-get-started:hover, #ctadmin-submit-create-account:hover  {
+  filter: brightness(120%);
+}
+#ctadmin-btn-skip-registration {
+  background-color: white;
+  color: #666;
+  border: 1px solid lightgray;
+}
+#ctadmin-btn-skip-registration:hover  {
+  background-color: #f9f9f9;
+}
+#ctadmin-sign-up-content {
+  margin: 20px 0px;  
+  padding: 15px;
+  background: url("https://files.cliptakes.com/media/get-started-background.jpg"), #ffffffee;
+  background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-size: 1200px;
+  background-position: right; 
+  font-size: 16px;
+}
+.ctadmin-form-row {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.ctadmin-form-row label {
+  min-width: 115px;
+}
+.ctadmin-form-row input {
+  margin-right: 20px;
+}
+.ctadmin-form-row input[type="text"], .ctadmin-form-row input[type="password"] {
+  height: 40px;
+  width: 250px;
+}
+.ctadmin-form-row input[type="checkbox"] {
+  margin: 10px 10px 10px 0px;
+} 
+#ctadmin-skip-registration-button-container {
+  border-top: 5px solid var(--cliptakes-main);
+  padding: 15px;
+}
+
+@media screen and (max-width: 600px) {
+  #ctadmin-get-started-content, #ctadmin-sign-up-content {
+    margin: auto;  
+    padding: 0;
+    background: #fff;
+    font-size: 16px;
+  }
+  .ctadmin-get-started-usp {
+    background: none;
+    margin: 15px 0px;
+  }
+  .ctadmin-get-started-usp-icon {
+    padding: 0px 15px 0px 0px;
+  }
+  #ctadmin-get-started-button-container {
+    flex-direction: column-reverse;
+  }
+  .ctadmin-pretty-button {
+    max-width: 90%;
+    margin: 10px auto;
+  }
+  .ctadmin-form-row input {
+    margin: auto
+  }
+  .ctadmin-desktop-only {
+    display: none !important;
+  }
+  #ctadmin-skip-registration-button-container {
+    display: flex;
+  }
+}

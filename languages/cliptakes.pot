@@ -1,0 +1,1388 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Package Name\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-04-22 13:54+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: admin/class-cliptakes-admin.php:155
+#: admin/partials/cliptakes-admin-display.php:18
+msgid "Settings"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:156
+msgid "Support"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:180 admin/class-cliptakes-admin.php:181
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:188 admin/class-cliptakes-admin.php:189
+#: admin/partials/cliptakes-admin-display.php:24
+#: admin/partials/cliptakes-template-editor.php:15
+msgid "Interview Templates"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:197 admin/class-cliptakes-admin.php:198
+#: admin/partials/cliptakes-admin-display.php:25
+#: admin/partials/cliptakes-contact-editor.php:15
+msgid "Email Notifications"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:206 admin/class-cliptakes-admin.php:207
+#: admin/partials/cliptakes-admin-display.php:26
+#: admin/partials/cliptakes-interview-display.php:15
+msgid "Recorded Interviews"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:215 admin/class-cliptakes-admin.php:216
+#: admin/class-cliptakes-admin.php:605
+#: admin/partials/cliptakes-admin-display.php:27
+#: admin/partials/cliptakes-admin-display.php:38
+msgid "API Settings"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:265
+msgid "Branding"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:271
+msgid "Welcome Page"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:277
+msgid "Sign-Up Page"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:283
+msgid "Recording"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:289
+msgid "Upload Page"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:296
+msgid "Question Size"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:303
+msgid "Main Color"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:310
+msgid "Logo"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:318
+msgid "Intro Section"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:325
+msgid "Intro Continue Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:334
+msgid "Sign-Up Form"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:341
+msgid "Submit Sign-Up Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:350
+msgid "Finish Setup Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:358
+msgid "Upload Video Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:366
+msgid "Retake Video Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:374
+msgid "Next Question Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:382
+msgid "Timelimit Info Text"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:389
+msgid "This text will be added to questions with a set time limit."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:390
+#, php-format
+msgid ""
+"Place %s to display the set time in seconds. Example: Our default text %s "
+"displays %s after a question with a 90 second limit."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:390
+#: includes/cliptakes-default-settings.php:18
+#, php-format
+msgctxt "Default text to be added to questions with a set timelimit."
+msgid "(Max. %s Seconds)"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:391
+#, php-format
+msgid ""
+"Alternatively place %s and %s to display minutes and seconds separately for "
+"a \"digital clock\"-format. Example: %s displays %s after a question with a "
+"90 second limit."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:392 admin/class-cliptakes-admin.php:393
+#, php-format
+msgctxt "Timelimit with minute / seconds: (Max. [m]:[s])"
+msgid "(Max. %s:%s)"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:399
+msgid "\"Ready for Upload\" Section"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:406
+msgid "Upload Interview Button"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:414
+msgid "\"Upload Successful\" Section"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:510
+msgid "Upload Logo Image"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:539
+msgid "Reset Intro Page"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:547
+msgid "Sign-Up Form Shortcodes"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:549
+msgid ""
+"You may use the below shortcodes in this section to customise the sign-up "
+"page as required."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:551 admin/class-cliptakes-admin.php:554
+#, php-format
+msgid "Generate a mandatory field for your candidate to enter their %s."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:551
+msgid "first name"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:554
+msgid "last name"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:557
+msgid ""
+"Generate a mandatory tick box for your candidates to agree to the following "
+"statement: "
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:557
+msgid "I have read and agree to the Privacy Policy."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:559
+#, php-format
+msgctxt ""
+"All 3 are used in our demo which can be <START_LINK>viewed here<END_LINK>."
+msgid "All 3 are used in our demo which can be %sviewed here%s."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:566
+msgid "Reset Sign-Up Form"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:579
+msgid "Reset \"Ready for Upload\" Section"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:591
+msgid "Reset \"Upload Successful\" Section"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:612
+msgid "Subscription Number"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:620
+msgid "License Key"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:630
+msgid "How to set up the API connection"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:632
+#, php-format
+msgctxt ""
+"Upon <START_LINK>registration<END_LINK>, you will receive an automated email "
+"with a unique Cliptakes Licence Key and Subscription Number."
+msgid ""
+"Upon %sregistration%s, you will receive an automated email with a unique "
+"Cliptakes Licence Key and Subscription Number."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:634
+msgid ""
+"Your Subscription Number can also be found in your account settings by "
+"navigating to your “Manage Subscription” tab. If you require your Cliptakes "
+"Licence Key again, you may request this via email by clicking on the "
+"\"Cliptakes Licence Key\" tab in your account settings. Your licence key "
+"will be emailed to you within minutes."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:636
+msgid ""
+"Paste the Licence Key and Subscription Number in the fields below, check the "
+"subscription status using the button provided and click \"Save Changes\". "
+"After successfully authorising your account, this section will turn green, "
+"indicating that you are good to go! If you have any difficulties, use the "
+"\"Check Subscription\" button to find out what the issue is and how to "
+"resolve it."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:638
+#, php-format
+msgctxt ""
+msgid ""
+"If you require further support, please refer to our full documentation or "
+"%sraise a support ticket%s on our website."
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:657
+msgid "Your subscription number, e.g. #1234"
+msgstr ""
+
+#: admin/class-cliptakes-admin.php:664
+msgid "Your license key, e.g. XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX"
+msgstr ""
+
+#: admin/class-interview-list-table.php:28
+#: admin/class-interview-list-table.php:29
+msgid "interview"
+msgid_plural "interviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/class-interview-list-table.php:36
+msgid "First Name"
+msgstr ""
+
+#: admin/class-interview-list-table.php:37
+msgid "Last Name"
+msgstr ""
+
+#: admin/class-interview-list-table.php:38
+msgid "Link"
+msgstr ""
+
+#: admin/class-interview-list-table.php:39
+msgid "Contact"
+msgstr ""
+
+#: admin/class-interview-list-table.php:40
+msgid "Date"
+msgstr ""
+
+#: admin/class-interview-list-table.php:41
+#: admin/partials/cliptakes-interview-display.php:27
+msgid "Views"
+msgstr ""
+
+#: admin/class-interview-list-table.php:47
+msgid "No interviews available."
+msgstr ""
+
+#: admin/class-interview-list-table.php:132
+msgid "Create a new page and embed this video."
+msgstr ""
+
+#: admin/class-interview-list-table.php:132
+msgid "Embed (New Page)"
+msgstr ""
+
+#: admin/class-interview-list-table.php:137
+msgid "Download Interview"
+msgstr ""
+
+#: admin/class-interview-list-table.php:137
+msgid "Download"
+msgstr ""
+
+#: admin/class-interview-list-table.php:138
+msgid "Permanently delete this interview."
+msgstr ""
+
+#: admin/class-interview-list-table.php:138
+#: admin/cliptakes-admin-script-i18n.php:52
+msgid "Delete"
+msgstr ""
+
+#: admin/class-interview-list-table.php:149
+msgid "Watch Video"
+msgstr ""
+
+#: admin/class-interview-list-table.php:188
+#, php-format
+msgid "1 item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/cliptakes-admin-script-i18n.php:14
+#: admin/partials/cliptakes-admin-display.php:37
+msgid "No active subscription"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:15
+msgid ""
+"Please check your API Settings or visit www.cliptakes.com to create an "
+"account."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:16
+msgid "Please make sure you are accessing this site with HTTPS protocol."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:17
+msgctxt "Do not edit \"<..>\" placeholders!"
+msgid ""
+"Your monthly recording limit of <MINUTES_LIMIT> minutes has been reached and "
+"will be reset on <RESET_DATE>."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:18
+#, php-format
+msgctxt ""
+"Upgrade your Cliptakes subscription to increase your recording time by "
+"signing into <LINK_START>your account<LINK_END> and navigating to the "
+"\"switch subscription\" tab."
+msgid ""
+"Upgrade your Cliptakes subscription to increase your recording time by "
+"signing into %syour account%s and navigating to the \"switch subscription\" "
+"tab."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:19
+msgid "Please upgrade your subscription to use a custom logo."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:20
+msgid "This feature is only available in our Pro plan."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:21
+msgid ""
+"Are you sure you want to reset the interview intro page to the Cliptakes "
+"default intro?"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:22
+msgid ""
+"Are you sure you want to reset the interview sign-up form to the Cliptakes "
+"default sign-up form?"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:23
+msgid ""
+"Are you sure you want to reset the \"ready for upload\" section to the "
+"Cliptakes default value?"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:24
+msgid ""
+"Are you sure you want to reset the \"upload successful\" section to the "
+"Cliptakes default value?"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:25
+msgid "Please upgrade your subscription to add a timelimit to questions."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:26
+msgctxt "Do not edit \"<..>\" placeholders!"
+msgid ""
+"You have reached the maximum number of questions allowed for this "
+"subscription type (<PRODUCT>: <QUESTION_LIMIT> questions per interview)."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:27
+msgid "Please upgrade to add more questions."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:28
+msgid ""
+"You can only add a maximum of 3 questions while testing our template "
+"designer."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:29
+#: admin/partials/cliptakes-template-editor.php:51
+msgid "Select Interview Template"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:30
+msgid "Timelimit"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:31
+msgctxt "Timelimit option: No Timelimit"
+msgid "None"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:32
+msgctxt "Timelimit option: Custom Timelimit"
+msgid "Custom"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:33
+msgctxt "Timelimit minutes"
+msgid "min"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:34
+msgctxt "Timelimit seconds"
+msgid "sec"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:35
+msgid "Remove Question"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:36
+msgid "New Template"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:37
+msgid "Enter your question here..."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:38
+#: admin/partials/cliptakes-template-editor.php:34
+#: admin/partials/cliptakes-template-editor.php:85
+msgid "Video Introduction"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:39
+msgid "This video was captured using Cliptakes"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:40
+msgctxt "Do not edit \"<..>\" placeholders!"
+msgid ""
+"You have reached your interview template allowance for your subscription "
+"type (<PRODUCT>: <TEMPLATES_LIMIT> interview <N_TEMPLATES>)."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:41
+#: admin/cliptakes-admin-script-i18n.php:42
+msgid "template"
+msgid_plural "templates"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/cliptakes-admin-script-i18n.php:43
+msgid "Please upgrade to add more templates."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:44
+msgid ""
+"Are you sure you want to delete this interview template? This action cannot "
+"be undone."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:45
+msgid ""
+"Do you want to dismiss changes you made to the currently edited contact?"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:46
+msgid "Are you sure you want to delete this contact?"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:47
+msgid "Please upgrade your subscription to add contacts."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:48
+msgctxt "Do not edit \"<..>\" placeholders!"
+msgid ""
+"You have reached your contact allowance for your subscription type "
+"(<PRODUCT>: <CONTACTS_LIMIT> contacts)."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:49
+msgid "Please upgrade to add more contacts."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:50
+msgid "Could not load contacts."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:51
+msgid "Edit"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:53
+msgid "Copy"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:54
+msgid "Please enter a name for this contact."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:55
+msgid "Name can only contain letters, numbers and spaces."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:56
+msgid "Please enter a unique shorthand for this contact."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:57
+msgid "Handle can only contain letters, numbers and \".\", \"-\", \"_\"."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:58
+msgid "This handle is already taken."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:59
+msgid "Email must contain \"@\" and a valid domain name (e.g. \"example.com\")"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:60
+msgid "Please refresh this page and try again."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:61
+msgid "An error occured while deleting this contact."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:62
+msgctxt "Displays the remaining minutes that can be used this month"
+msgid "Recording Time"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:63
+msgctxt "Do not edit \"<..>\" placeholders!"
+msgid "<REMAINING> Minutes of <LIMIT> remaining"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:64
+msgctxt "Display the reset date for recording allowance"
+msgid "Resets On"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:65
+msgid "An error ocurred while loading your recording statistics."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:66
+msgid ""
+"Are you sure you want to delete this video and all associated personal "
+"information? This action is permanent and cannot be undone."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:67
+msgid "An error ocurred while deleting the interview."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:68
+msgid "Could not load interviews."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:69
+msgctxt "Do not edit \"<..>\" placeholders!"
+msgid "Expires in <DAYS_UNTIL_DELETION> days"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:70
+msgid "Please save your changes."
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:71
+msgid "Authentication failed"
+msgstr ""
+
+#: admin/cliptakes-admin-script-i18n.php:72
+msgid "Please check your Subscription ID and License Key."
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:14
+msgid "I experienced technical difficulties"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:15
+msgid "Please tell us what went wrong"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:16
+msgid "It doesn’t do what I expected"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:17
+msgid "What did you expect?"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:18
+msgid "I found a better plugin"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:19
+msgid "What’s the plugin’s name?"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:20
+msgid "It’s too expensive"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:21
+msgid "What would you expect to pay for one-way video technology?"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:22
+msgctxt "Other Deactivation Reasons"
+msgid "Other"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:23
+msgid "Please provide further details so we can improve"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:24
+msgctxt "Feedback Dialogue after Deactivation"
+msgid "Quick Feedback"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:25
+msgid ""
+"If you have a moment, please let us know why you are deactivating Cliptakes:"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:26
+msgid ""
+"Would you like us to contact you with a possible solution? If yes, please "
+"provide your email address below."
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:27
+msgid "Your Email"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:28
+msgid "Anonymous feedback"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:29
+msgid "Skip"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:30
+msgid "Deactivate"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:31
+#: admin/partials/cliptakes-contact-editor.php:64
+msgid "Cancel"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:32
+msgctxt "Required Input"
+msgid "Required"
+msgstr ""
+
+#: admin/cliptakes-plugin-page-script-i18n.php:33
+msgid "Submit"
+msgstr ""
+
+#: admin/partials/cliptakes-admin-display.php:23
+msgctxt "General Settings"
+msgid "General"
+msgstr ""
+
+#: admin/partials/cliptakes-admin-display.php:38
+#, php-format
+msgctxt ""
+"Please check your API settings or visit www.cliptakes.com to start using "
+"Cliptakes"
+msgid "Please check your %s or visit %s to start using Cliptakes."
+msgstr ""
+
+#: admin/partials/cliptakes-api-settings.php:21
+msgid "Check Subscription"
+msgstr ""
+
+#: admin/partials/cliptakes-api-settings.php:26
+msgid "Please check your subscription."
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:17
+msgid "How our Email Notifications work"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:19
+msgid ""
+"By default, completed interview recordings are emailed to the email address "
+"specified in your Cliptakes account set during initial account creation. "
+"This main email address can be changed at anytime by visiting your account "
+"settings on our website."
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:21
+msgid ""
+"The below settings can be used to notify additional contacts that a "
+"recording they have requested has been completed. The main contact email "
+"will still be copied into the notification."
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:23
+msgid "Adding a contact"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:24
+msgid ""
+"Click \"Add Contact\" and define a name, handle, and email address. Clicking "
+"save will generate a unique URL-Parameter which can be added to the end of "
+"the interview page link you have set. This tells Cliptakes to send the email "
+"notification to the main account email and also the newly created contact."
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:26
+msgid "Example"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:27
+#, php-format
+msgctxt ""
+"You created your interview platform on: <EXAMPLE LINK> and add a new contact "
+"using the following information:"
+msgid ""
+"You created your interview platform on: %s and add a new contact using the "
+"following information:"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:29
+#: admin/partials/cliptakes-contact-editor.php:45
+#: admin/partials/cliptakes-contact-editor.php:72
+msgid "Name"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:30
+#: admin/partials/cliptakes-contact-editor.php:50
+#: admin/partials/cliptakes-contact-editor.php:73
+msgctxt "Unique shorthand for a contact"
+msgid "Handle"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:31
+#: admin/partials/cliptakes-contact-editor.php:57
+#: admin/partials/cliptakes-contact-editor.php:74
+msgid "Email"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:32
+#, php-format
+msgctxt "The generated URL-Parameter will be: <EXAMPLE>"
+msgid "The generated %s will be:"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:32
+#: admin/partials/cliptakes-contact-editor.php:34
+#: admin/partials/cliptakes-contact-editor.php:75
+msgid "URL-Parameter"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:34
+#, php-format
+msgctxt ""
+"Add the newly created URL-Parameter to the end of your link when requesting "
+"interviews, as follows:"
+msgid ""
+"Add the newly created %s to the end of your link when requesting interviews, "
+"as follows:"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:39
+msgid "Add Contact"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:47
+msgid "Contact Name"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:52
+msgid "Unique shorthand for this contact"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:59
+msgid "Contact Email Address"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:63
+msgid "Save"
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:68
+msgid "Contact was saved."
+msgstr ""
+
+#: admin/partials/cliptakes-contact-editor.php:79
+msgid "No contacts available."
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:14
+msgid "About Cliptakes"
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:15
+msgid ""
+"Cliptakes is a video and auto editing plugin for WordPress that allows "
+"hiring managers, recruiters, and business owners to easily set interview "
+"questions and take one-way video answers from potential candidates."
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:16
+msgid ""
+"Received videos are auto edited into a branded video to review or share with "
+"clients, saving you valuable time and increasing placements."
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:17
+#, php-format
+msgctxt "To get started, visit our website at <LINK TO CLIPTAKES.COM>"
+msgid "To get started, visit our website at %s"
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:24
+msgid "What are the General Settings?"
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:27
+msgid ""
+"The below general settings are used to style the Cliptakes recording "
+"platform and set custom text. All interview templates will inherit the "
+"settings from this page. We’ve added a suggested welcome message and privacy "
+"policy which you can change as required."
+msgstr ""
+
+#: admin/partials/cliptakes-general-settings.php:36
+#: admin/partials/cliptakes-general-settings.php:40
+#: admin/partials/cliptakes-general-settings.php:44
+#: admin/partials/cliptakes-general-settings.php:48
+#: admin/partials/cliptakes-general-settings.php:52
+msgid "Save All Changes"
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:17
+msgid "More information"
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:19
+msgid ""
+"The below is a list of all interviews that have been recorded within the "
+"last 6 months. After 6 months, recordings are automatically deleted."
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:21
+msgid "Download Videos"
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:21
+msgid ""
+"Should you require the video for longer than 6 months you can find it in the "
+"list below and click the “Download” button. This will open the video in a "
+"new tab. Click the 3 dots in the bottom right-hand corner of the video "
+"player and click download."
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:23
+msgid "Embed Videos"
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:23
+msgid ""
+"To embed a video into a page on your own website, find the video below and "
+"click the “Embed (New Page)” button. This will open the video in an "
+"unpublished page on your website for you to review, design and publish."
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:25
+msgctxt "Section explaining how long Videos are stored before deletion"
+msgid "Expiry"
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:25
+msgid ""
+"Should you wish to see how long a video is playable for, find it in the list "
+"below, hover over it and in the date column you will see the remaining days "
+"available before deletion."
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:27
+msgid ""
+"The \"views\" column shows you the amount of times each video has been "
+"viewed (not necessarily played through)."
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:36
+#: admin/partials/cliptakes-interview-display.php:38
+msgid "Search Interviews"
+msgstr ""
+
+#: admin/partials/cliptakes-interview-display.php:49
+msgid "No interviews have been recorded."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:17
+msgid "How to set up an interview"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:19
+msgid ""
+"Defining a new video interview template can be achieved in four simple steps:"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:22
+msgid "Create a new template"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:23
+msgid "Click \"Add Interview Template\" and set a template name."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:26
+msgid "Set questions"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:28
+msgid ""
+"Set your questions by filling in one question per box. To add more "
+"questions, simply click \"Add Question\". It’s best to keep your questions "
+"short as viewers will have limited time to read the question before it "
+"transitions into the recorded answer."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:32
+msgid "Customise the intro and call-to-action"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:34
+#, php-format
+msgid ""
+"The intro slide contains the first text viewers will see before starting "
+"your video. By default, Cliptakes sets this to: %s. You can amend this using "
+"the placeholders as desired."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:36
+msgid ""
+"The final call-to-action text is your opportunity to tell viewers the next "
+"steps (how to get in touch), or alternatively it’s a good place to add your "
+"company slogan."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:40
+msgid "Add the video interview to your website"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:42
+#, php-format
+msgid ""
+"Once you are happy with your interview template click \"Save Template\" and "
+"copy the unique shortcode that is generated at the top of the page. Paste "
+"the shortcode into a page of your choice (example: %s) and click \"preview "
+"changes\" to view your new interview platform."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:52
+msgid "No Templates Found."
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:55
+msgid "Add Interview Template"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:64
+msgid "Template Name"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:68
+msgid "Template Shortcode"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:70
+msgid "Copy Shortcode"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:72
+msgid "Template Questions"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:74
+msgid "Add Question"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:76
+msgid "Intro Slide Text"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:78
+msgid "Intro Slide Shortcodes"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:80
+msgid ""
+"This will be the opening slide on your final video. The available shortcodes "
+"for this section simply allow you to add the candidate’s first and, or last "
+"name:"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:84
+msgid "As a default, Cliptakes sets this to:"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:90
+msgid "Call-to-Action Slide Text"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:92
+msgid "Template saved successfully!"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:94
+msgid "Save Template"
+msgstr ""
+
+#: admin/partials/cliptakes-template-editor.php:95
+msgid "Delete Template"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:16
+msgctxt "Intro Next Button"
+msgid "Continue"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:17
+msgctxt "Signup Submit Button"
+msgid "Continue"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:19
+msgctxt "Setup Next Button"
+msgid "Continue"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:20
+msgctxt "Upload Video Button"
+msgid "Record or Upload"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:21
+msgctxt "Retake Video Button"
+msgid "Retake"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:22
+msgctxt "Next Question Button"
+msgid "Next"
+msgstr ""
+
+#: includes/cliptakes-default-settings.php:23
+msgctxt "Upload Interview Button"
+msgid "Submit Interview"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:177
+msgid "Compact view"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:178
+msgid "Extended view"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:343
+msgid "No items found."
+msgstr ""
+
+#: libraries/class-ct-list-table.php:451
+msgid "Select bulk action"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:453
+msgid "Bulk actions"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:474
+msgid "Apply"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:533
+#: libraries/class-ct-list-table.php:1444
+msgid "Show more details"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:615
+msgid "All dates"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:630
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:687
+#, php-format
+msgid "%s comment"
+msgid_plural "%s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libraries/class-ct-list-table.php:693
+#, php-format
+msgid "%s approved comment"
+msgid_plural "%s approved comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libraries/class-ct-list-table.php:699
+#, php-format
+msgid "%s pending comment"
+msgid_plural "%s pending comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libraries/class-ct-list-table.php:707 libraries/class-ct-list-table.php:737
+#: libraries/class-ct-list-table.php:760
+msgid "No comments"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:737
+msgid "No approved comments"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:760
+msgid "No pending comments"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:849
+#: libraries/class-ct-list-table.php:1469
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: libraries/class-ct-list-table.php:891
+msgid "First page"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:902
+msgid "Previous page"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:909 libraries/class-ct-list-table.php:913
+msgid "Current Page"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:921
+#, php-format
+msgctxt "paging"
+msgid "%1$s of %2$s"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:932
+msgid "Next page"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:943
+msgid "Last page"
+msgstr ""
+
+#: libraries/class-ct-list-table.php:1178
+msgid "Select All"
+msgstr ""
+
+#: public/class-cliptakes-public.php:74
+msgctxt "Frontend: label for first name input"
+msgid "First Name"
+msgstr ""
+
+#: public/class-cliptakes-public.php:75
+msgctxt "Frontend: placeholder for first name input"
+msgid "Your First Name"
+msgstr ""
+
+#: public/class-cliptakes-public.php:97
+msgctxt "Frontend: label for last name input"
+msgid "Last Name"
+msgstr ""
+
+#: public/class-cliptakes-public.php:98
+msgctxt "Frontend: placeholder for last name input"
+msgid "Your Last Name"
+msgstr ""
+
+#: public/class-cliptakes-public.php:143
+msgctxt "Frontend: Checkbox Accept Privacy Policy"
+msgid "I have read and agree to the Privacy Policy."
+msgstr ""
+
+#: public/class-cliptakes-public.php:159
+msgid "New Input"
+msgstr ""
+
+#: public/class-cliptakes-public.php:301
+msgctxt "Frontend: Interview not available message"
+msgid ""
+"This interview is currently unavailable. Please ask the person who sent you "
+"this link to check their video interview settings."
+msgstr ""
+
+#: public/class-cliptakes-public.php:327
+msgctxt "Frontend: Navigation"
+msgid "Setup"
+msgstr ""
+
+#: public/class-cliptakes-public.php:333
+msgctxt "Frontend: Navigation"
+msgid "Upload"
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:14
+msgctxt "Frontend: Confirm leaving page before completing interview"
+msgid "Are you sure you want to leave without completing the interview?"
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:15
+msgctxt "Frontend: Answer question before moving on message"
+msgid "Please answer each question before moving on to the next step."
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:16
+msgctxt "Frontend: Old browser version message"
+msgid ""
+"This internet browser does not support webcam recording. Try updating to the "
+"latest version of the browser to fix this."
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:17
+msgctxt "Frontend: Old browser - alternative options message"
+msgid ""
+"You may continue using the upload video function or alternatively try "
+"recording on an alternative browser or mobile device."
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:18
+msgctxt ""
+"Frontend: Timelimit, answer too long message. Do not translate or change "
+"\"<TIMELIMIT>\" placeholder!"
+msgid ""
+"This question has a timelimit. Please make sure your answer is not longer "
+"than <TIMELIMIT> seconds."
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:19
+msgctxt "Frontend: Confirm retaking a video"
+msgid "Are you sure you want to retake this video?"
+msgstr ""
+
+#: public/cliptakes-interview-script-i18n.php:20
+msgctxt "Frontend: Answer all questions message"
+msgid "Please answer all questions before moving on."
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:52
+#: public/partials/cliptakes-interview-elements.php:321
+msgctxt "Frontend: Error message title"
+msgid "Something went wrong."
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:53
+msgctxt "Frontend: Allow camera access message"
+msgid ""
+"We can't record the interview without access to your webcam. Please click on "
+"the security lock or the camera icon at the top left of your browser and "
+"allow access to your webcam and microphone."
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:57
+msgctxt "Frontend: Button label (no camera, use media upload)"
+msgid "Continue without camera"
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:73
+msgctxt "Frontend: Camera"
+msgid "Camera"
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:88
+msgctxt "Frontend: Microphone"
+msgid "Microphone"
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:96
+msgctxt "Frontend: No audio input error message"
+msgid "No audio input detected."
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:113
+msgctxt "Frontend: Mobile view, Question answered indicator"
+msgid "Answered"
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:135
+msgctxt ""
+"Frontend: Mobile view, rotate device / record in landscape mode message"
+msgid "Please record in landscape mode."
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:155
+msgctxt "Frontend: Button label start recording"
+msgid "Start Recording"
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:159
+msgctxt "Frontend: Button label stop recording"
+msgid "Stop Recording"
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:318
+msgctxt "Frontend: Wait for upload message"
+msgid "Please leave this page open until the upload is finished."
+msgstr ""
+
+#: public/partials/cliptakes-interview-elements.php:322
+msgctxt "Frontend: Upload failed error message"
+msgid ""
+"Please navigate back through your answers to ensure all recordings have been "
+"completed and check your internet connection before retrying the upload."
+msgstr ""

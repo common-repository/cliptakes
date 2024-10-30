@@ -1,0 +1,170 @@
+#ctadmin-deactivation-feedback {
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: 100000;
+  display: none;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+#ctadmin-deactivation-feedback .dashicons {
+  vertical-align: middle;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue {
+  background: transparent;
+  position: absolute;
+  left: 50%;
+  margin-left: -350px;
+  padding-bottom: 30px;
+  top: -100%;
+  z-index: 100001;
+  width: 600px;
+  font-size: 11pt;
+}
+
+@media (max-width: 650px) {
+  #ctadmin-deactivation-feedback .ctadmin-dialogue {
+    margin-left: -50%;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+  }
+  #ctadmin-deactivation-feedback .ctadmin-dialogue > h3 > strong {
+    font-size: 1.3em;
+  }
+}
+
+#ctadmin-deactivation-feedback.active {
+  display: block;
+}
+
+#ctadmin-deactivation-feedback.active:before {
+  display: block;
+}
+
+#ctadmin-deactivation-feedback.active .ctadmin-dialogue {
+  top: 10%;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body,
+#ctadmin-deactivation-feedback .ctadmin-dialogue-footer {
+  border: 0;
+  background: #fefefe;
+  padding: 20px;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-header {
+  border-bottom: #eeeeee solid 1px;
+  border-radius: 10px 10px 0 0;
+  background: #588dbd;
+  padding: 15px 20px;
+  position: relative;
+  margin-bottom: -10px;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-header h4 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #fefefe;
+  text-shadow: 1px 1px 1px #1f1f1f66;
+  letter-spacing: 0.6px;
+  -webkit-font-smoothing: antialiased;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body {
+  border-bottom: 0;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body h2 {
+  font-size: 16pt;
+  line-height: 1.4em;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body > div {
+  margin-top: 10px;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body > div h2 {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 0;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-footer {
+  border-top: #eeeeee solid 1px;
+  border-radius: 0 0 10px 10px;
+  text-align: right;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-footer > .button {
+  margin: 0 7px;
+  font-size: 11pt;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-footer > .button:first-child {
+  margin: 0;
+}
+
+body.ctadmin-dialogue-active {
+  overflow: hidden;
+}
+
+#ctadmin-deactivation-email-input {
+  width: 300px;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-deactivation-reason-input {
+  margin: 3px 0 3px 22px;
+}
+#ctadmin-deactivation-feedback .ctadmin-deactivation-reason-input input {
+  width: 100%;
+}
+#ctadmin-deactivation-feedback
+  .ctadmin-deactivation-reason-input
+  input:invalid {
+  border: 1px solid red;
+}
+#ctadmin-deactivation-feedback
+  .ctadmin-deactivation-reason-input
+  .ctadmin-required-message {
+  color: red;
+  font-size: 10pt;
+}
+
+@media (max-width: 650px) {
+  #ctadmin-deactivation-feedback li.ctadmin-deactivation-reason {
+    margin-bottom: 10px;
+  }
+  #ctadmin-deactivation-feedback
+    li.ctadmin-deactivation-reason
+    .ctadmin-deactivation-reason-input {
+    margin-left: 29px;
+  }
+  #ctadmin-deactivation-feedback li.ctadmin-deactivation-reason label {
+    display: table;
+  }
+  #ctadmin-deactivation-feedback li.ctadmin-deactivation-reason label > span {
+    display: table-cell;
+    font-size: 1.3em;
+  }
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body {
+  margin-top: 0 !important;
+}
+
+#ctadmin-deactivation-feedback .ctadmin-dialogue-body h3 {
+  margin-top: 0;
+  line-height: 1.5em;
+}
+
+#ctadmin-deactivation-feedback .anonymous-feedback-label {
+  float: left;
+}
